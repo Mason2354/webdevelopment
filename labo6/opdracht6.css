@@ -1,0 +1,22 @@
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.checklist li::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url('https://www.svgrepo.com/show/343025/checkbox-empty.svg') no-repeat center/contain;
+}
+
+.checklist li.checked::before {
+    background-image: url('https://cdn.vectorstock.com/i/1000v/16/21/checked-checkbox-outline-icon-vector-34121621.jpg');
+}
