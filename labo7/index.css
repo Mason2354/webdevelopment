@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+body > section {
+    width: 95%;
+    margin: auto;
+}
+
+body > section > header {
+    background-image: url("header.jpg");
+    background-size: cover;
+    height: 75px;
+    position: relative;
+}
+
+body > section > header h1 {
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+nav {
+    background-color: darkslategray;
+    padding: 5px;
+}
+
+nav a {
+    color: lawngreen;
+}
+
+body > section > div {
+    padding: 10px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+}
